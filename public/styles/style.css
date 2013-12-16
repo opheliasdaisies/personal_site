@@ -1,0 +1,43 @@
+body {
+  background-image: url(/images/background.png);
+  
+}
+
+header {
+  width: 90%;
+  background-color: white;
+  margin: 30px auto;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+main {
+  background-color: white;
+  width: 90%;
+  margin: 30px auto;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+nav {
+  background-color: black;
+  width: 100%;
+  padding: 3px;
+}
+
+nav a {
+  text-decoration: none;
+  padding:0 20px;
+  color: white;
+  margin: 0 8%;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.home_photo{
+  width: 200px;
+  margin: 10px;
+}
