@@ -29,7 +29,7 @@ nav a {
   text-decoration: none;
   padding:0 20px;
   color: white;
-  margin: 0 8%;
+  margin: 0 12%;
 }
 
 nav a:hover {
@@ -37,8 +37,24 @@ nav a:hover {
   color: black;
 }
 
+h1{
+  margin: 15px;
+}
+
+h2 {
+  margin: 15px;
+  font-weight: normal;
+  font-size: 20px;
+  position: absolute;
+  left: 300px;
+  top: 57px;
+}
+
 .home_photo{
-  margin: 10px;
+  margin: 10px 20px 10px 10px;
+  float: left;
+  clear: both;
+  border: 1px solid black;
 }
 
 .project {
@@ -68,3 +84,20 @@ nav a:hover {
   color: white;
 }
 
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:table;
+}
+.clearfix:after {
+    clear:both;
+}
+
+.clearfix {
+    zoom:1;
+}
+
+.about ul{
+  position: relative;
+  left: 50px;
+}
