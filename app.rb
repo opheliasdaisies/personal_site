@@ -16,5 +16,9 @@ module Site
       erb :projects
     end
 
+    get '/writing' do
+      erb :writing
+    end
+
   end
 end
