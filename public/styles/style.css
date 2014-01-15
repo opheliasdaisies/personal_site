@@ -57,12 +57,40 @@ h2 {
   border: 1px solid black;
 }
 
+.writing li {
+  padding: 5px;
+}
+
+.writing li a {
+  color: black;
+  padding: 5px;
+  text-decoration: none
+}
+
+.writing li a:hover {
+  background-color: black;
+  color: white;
+  text-decoration: none
+}
+
+.writing li:first-child {
+  list-style-type: none;
+  padding: 3px;
+  margin: 5px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  position: relative;
+  right: 20px;
+}
+
 .project {
   margin: 20px;
 }
 
 .project .name {
   background-color: black;
+  color: white;
   padding: 4px;
 }
 
