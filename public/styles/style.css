@@ -36,6 +36,16 @@ body {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
+.photo {
+  position: absolute;
+  right: 50px;
+  top: 20px;
+
+  -webkit-box-shadow: 0px 0px 22px 5px rgba(68, 39, 12, 1);
+  -moz-box-shadow:    0px 0px 22px 5px rgba(68, 39, 12, 1);
+  box-shadow:         0px 0px 22px 5px rgba(68, 39, 12, 1);
+}
+
 header {
   width: 90%;
   background-color: white;
