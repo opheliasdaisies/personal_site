@@ -1,6 +1,39 @@
+/* Color List
+FDCD09
+B89F37
+9D7E03
+FEE062
+FEEEA9
+*/
+
 body {
   /*background-image: url(/images/background.png);*/
-  background-color: #EBF5FF;  
+  background-color: #FDCD09;
+}
+
+.title {
+  font-family: 'New Rocker', cursive;
+  color: #9D7E03;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     2px 2px 0 #000;
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+
+  /* Safari */
+  -webkit-transform: rotate(-15deg);
+  /* Firefox */
+  -moz-transform: rotate(-15deg);
+  /* IE */
+  -ms-transform: rotate(-15deg);
+  /* Opera */
+  -o-transform: rotate(-15deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 header {
