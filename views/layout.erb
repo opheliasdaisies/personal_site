@@ -7,16 +7,18 @@
     <link href="styles/style.css" type="text/css" rel="stylesheet"/>
   </head>
   <body>
-    <h1 class="title">Sara<br>Gorecki</h1>
-    <img class="photo" src="/images/sepia.png">
-    <nav>
-      <a href="/">Home</a>
-      <a href="/projects">My Projects</a>
-      <a href="/writing">Writings by Me</a>
-      <a href="http://mykindofgeek.com" target="_blank">My Blog</a>
-    </nav>
-    <main>
-      <%= yield %>
-    </main>
+    <div class="wrapper">
+      <h1 class="title">Sara<br>Gorecki</h1>
+      <img class="photo" src="/images/sepia.png">
+      <ul class="nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/projects">My Projects</a></li>
+        <li><a href="/writing">Writings by Me</a></li>
+        <li><a href="http://mykindofgeek.com" target="_blank">My Blog</a></li>
+      </ul>
+      <main>
+        <%= yield %>
+      </main>
+    </div>
   </body>
 </html>
