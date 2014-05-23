@@ -30,6 +30,7 @@ body {
   position: absolute;
   top: 0;
   left: 20px;
+  letter-spacing: 0.15em;
 
   /* Safari */
   -webkit-transform: rotate(-15deg);
@@ -46,6 +47,7 @@ body {
 .photo {
   position: relative;
   left: 500px;
+  z-index: 1;
 
   -webkit-box-shadow: 0px 0px 22px 5px rgba(68, 39, 12, 1);
   -moz-box-shadow:    0px 0px 22px 5px rgba(68, 39, 12, 1);
@@ -54,8 +56,8 @@ body {
 
 .nav {
   position: absolute;
-  top: -17px;
-  left: 275px;
+  top: -16px;
+  left: 277px;
   border-right: solid #9D7E03 10px;
 }
 
@@ -110,11 +112,39 @@ section h3 {
   font-size: 30px;
   text-align: center;
   margin: 10px 0 25px;
+  letter-spacing: 0.15em;
 }
 
-section p {
-  /*position: relative;
-  bottom: 10px;*/
+.project {
+  border-top: #FEE062 5px solid;
+  padding: 15px;
+  -webkit-box-shadow: 0px -2px 0px 0px rgba(184, 159, 55, 1), 0px -7px 0px 0px rgba(254, 224, 98, 1);
+  -moz-box-shadow:    0px -2px 0px 0px rgba(184, 159, 55, 1), 0px -7px 0px 0px rgba(254, 224, 98, 1);
+  box-shadow:         0px -2px 0px 0px rgba(184, 159, 55, 1), 0px -7px 0px 0px rgba(254, 224, 98, 1);
+}
+
+.first {
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow:    none;
+  box-shadow:         none;
+}
+
+section a {
+  color: #341BAF;
+}
+
+section a:hover {
+  color: #816CE9;
+}
+
+.project .name {
+  font-weight: bolder;
+  font-size: 1.2em;
+}
+
+.project a {
+  margin-right: 30px;
 }
 
 /*
