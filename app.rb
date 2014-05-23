@@ -5,19 +5,13 @@ module Site
   class PersonalSite < Sinatra::Application
 
     get '/' do
+      @page = "class = 'about'"
       erb :index
     end
 
-    get '/about' do
-      erb :about
-    end
-
     get '/projects' do
+      @page = "class = 'projects'"
       erb :projects
-    end
-
-    get '/writing' do
-      erb :writing
     end
 
   end
